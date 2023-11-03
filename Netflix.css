@@ -1,0 +1,215 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Styles for header */
+header {
+    background: #e50914;
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+} 
+
+/* Styles for hero section */
+.home {
+    text-align: center;
+    padding: 150px 0;
+    background:linear-gradient(to top, #262527ba, #1e1e1fcc),url('bghome.jpg');
+    background-size: cover;
+    color: #fff;
+
+}
+
+.home h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.home p {
+    margin-bottom: 40px;
+    font-size: 1.5em;
+}
+
+.home button {
+    padding: 15px 30px;
+    background: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+.home button:hover {
+    background: #f40612;
+}
+
+.enjoy-on-tv {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #000;
+  }
+  
+  .enjoy-on-tv h2 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: white;
+  }
+  .tv-options {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tv-option {
+    margin: 0 20px;
+    color: white;
+    min-height: auto;
+    padding: 4.5rem 0;
+  }
+  
+  .tv-option img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tv-option h3 {
+    font-size: 18px;
+  }
+
+  .download-shows{
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #000;
+  }
+  .download-shows h2{
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: white;
+  }
+
+/* Styles for movie section */
+.movies {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #000;
+}
+
+.movies h2 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: white;
+}
+
+.movie-list {
+    display: flex;
+    justify-content: center;
+}
+
+.movie {
+    margin: 0 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.movie:hover {
+    transform: scale(1.1);
+}
+
+.movie img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.faq-section {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #000;
+    color: white;
+}
+
+.faq-section h2 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: white;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    justify-content: center;
+}
+
+.ready-to-watch{
+    background-color: #000;
+    color: #fff;
+}
+.ready-to-watch p{
+    font-size: larger;
+    text-align: center;
+}
+
+button{
+    width: max-content;
+    height: max-content;
+    padding: 16px 30px;
+    background: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background 0.3s;
+    font-family: Arial, sans-serif;
+}
+
+button:hover {
+    background: #f40612;
+}
+
+/* Styles for footer */
+footer {
+    background: #000;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+}
